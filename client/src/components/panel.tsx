@@ -22,6 +22,7 @@ const PanelComp = () => {
      </Panel>
      <PanelResizeHandle />
    </PanelGroup>
+     <PanelResizeHandle />
   </PanelGroup>
   )
 }
