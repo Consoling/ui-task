@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Panel, PanelGroup, PanelResizeHandle } from "react-resizable-panels";
 import axios from "axios";
 
-type Props = {};
+
 
 const ResizablePanel = () => {
   const BACKEND_URL = import.meta.env.BACKEND_URL;
