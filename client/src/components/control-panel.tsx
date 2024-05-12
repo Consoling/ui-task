@@ -1,6 +1,6 @@
-type Props = {};
 
-const ControlPanel = (props: Props) => {
+
+const ControlPanel = () => {
   return (
     <div className="w-full flex flex-row justify-around items-center text-white h-28 border-[1px] rounded-lg shadow-lg mb-10 bg-black shadow-white">
         <button className="border-2 w-16 h-10 rounded-tr-md rounded-bl-md shadow-inner">Add</button>
