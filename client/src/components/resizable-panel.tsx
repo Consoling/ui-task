@@ -12,7 +12,7 @@ const ResizablePanel = () => {
 
   useEffect(() => {
     async function fetchImages() {
-      await axios.get(`${BACKEND_URL}`).then((res) => res.data);
+      await axios.get(`${BACKEND_URL}`).then((res) => {setImageOne(res?.data); setImageTwo(res?.data); setImageThree(res?.data);})
     }
     fetchImages();
   }, []);
